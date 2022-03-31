@@ -3,6 +3,7 @@ import requests
 
 from streamlit_autorefresh import st_autorefresh
 
+import icecast
 
 count = st_autorefresh(interval=2000, limit=100, key="nowplaying_refresher")
 
@@ -46,5 +47,4 @@ for mnt in mountpoints:
 ### automatic reloading of page (and a button to manually refresh)
 
 st.button("Re-run")
-
 
