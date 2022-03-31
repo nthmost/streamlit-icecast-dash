@@ -15,7 +15,7 @@ status_json = f"{protocol}://{server}:{port}/status-json.xsl"
 
 st.title(f"Radio Dashboard for {server}")
 
-mountpoints = ["mobradio", "pandora"]
+mountpoints = ["mobradio", "pandora", "mobradio-talk"]
 
 
 def get_status():
